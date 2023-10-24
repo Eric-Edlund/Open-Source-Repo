@@ -1,4 +1,6 @@
 // Bugged by Connor Brown on 10/24/23
+// i now increments by 2 on line 11
+// if statement now checks for odd rather than even on line 12
 
 import java.io.*;
 
