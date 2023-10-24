@@ -9,9 +9,9 @@ std::string rgb_to_hex(int r, int g, int b)
     //Red definition
     r = std::max(0, std::min(255, r));
     //Green definition
-    b = std::max(0, std::min(255, g));
+    g = std::max(0, std::min(255, g));
     //Blue definition
-    g = std::max(0, std::min(255, b));
+    b = std::max(0, std::min(255, b));
 
     std::stringstream ss;
     //Set string stream equal to red, green, and blue values
