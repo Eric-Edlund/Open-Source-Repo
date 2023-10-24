@@ -1,4 +1,4 @@
-#BP Bugs introudced: format date incorrectly
+#BP Bugs introudced: format date incorrectly FIXED
 
 #This program formats the date for you
 from datetime import datetime
