@@ -1,3 +1,4 @@
+# Eric commented out the correct return function (BUG)
 def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
