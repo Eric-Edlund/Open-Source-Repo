@@ -10,7 +10,7 @@ def remove_duplicates(arr):
             removed_elements.append(arr[i])
     return arr
     # Lol, did all that work for no reason    
-    # return unique_arr, removed_elements
+    return unique_arr, removed_elements
 
 # Test the function
 arr = [1, 2, 2, 3, 4, 4, 5]
