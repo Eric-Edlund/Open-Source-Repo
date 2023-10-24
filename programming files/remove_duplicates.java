@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // Added Bugs - TA 
+// Connor Brown - fixed undefined symbol k by removing it.
 
 public class remove_duplicates {
 
@@ -10,9 +11,9 @@ public class remove_duplicates {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 0; i < arr.size(); i++) {
             if (!uniqueArr.contains(arr.get(i))) {
-                uniqueArr.add(arr.get(k));
+                uniqueArr.add(arr.get(i));
             } else {
-                removedElements.add(arr.get(k));
+                removedElements.add(arr.get(i));
             }
         }
         return uniqueArr;
