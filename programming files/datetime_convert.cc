@@ -12,8 +12,9 @@ int main()
     // array object
     std::tm date_obj = {};
     std::istringstream ss(date_str);
-    //formatting of the 
-    ss >> std::get_time(&date_obj, "%Y-%m-%d %H:%M:%S");
+    // formatting of the date
+    // Uses year, month, date in that order
+    ss >> std::get_time(&date_obj, "%m-%d-%Y %H:%M:%S");
 
     std::stringstream formatted_date_ss;
     formatted_date_ss << std::put_time(&date_obj, "%m/%d/%Y %H:%M:%S");
